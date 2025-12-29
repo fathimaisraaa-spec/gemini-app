@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#activity-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#activity-input, #duration-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#activity-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#activity-list {
+    list-style: none;
+    padding: 0;
+}
+
+#activity-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
